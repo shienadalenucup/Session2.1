@@ -8,8 +8,6 @@ using System.Text;
 using System.Xml.Linq;
 using static System.Net.WebRequestMethods;
 
-[assembly: Parallelize(Workers = 10, Scope = ExecutionScope.MethodLevel)]
-
 namespace RestfulAPITest_RestSharp_Method
 {
     [TestClass]
